@@ -31,4 +31,3 @@ Zertifikat exportieren (Nutzung von https://keystore-explorer.org/downloads.html
 https://localhost:8443
 
 https://localhost:8443/json/kotlinx-serialization
-
