@@ -13,6 +13,10 @@ fun Application.configureRouting() {
             call.respondText("Hello World!")
         }
 
+        get("/route1") {
+            call.respondText("get route1")
+        }
+
         get("/downloadImage") {
             var file = File("files/image.jpeg")
             call.response.header(
